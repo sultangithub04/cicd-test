@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --import ./instrumentation.mjs ./app.js",
-    "test": "node --test"
+    "test": "node --test test/*.test.js"
   },
   "keywords": [],
   "author": "",
